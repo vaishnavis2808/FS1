@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <label for="">Name:</label><br>
+    <input type="text" name="" id="name">
+    <button onclick="hi()">click</button>
+
+<div id="greet"></div>
+<script>
+    function hi(){
+        const name=document.getElementById('name').value;
+        document.getElementById('greet').innerText=`Hi ${name}`
+    }
+</script>
+</body>
+</html>
